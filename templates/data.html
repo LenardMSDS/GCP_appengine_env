@@ -1,0 +1,13 @@
+<h1>Predicted Home Sold Price for Home in Fremont California</h1>
+
+<p style="font-size:20px">Predicted Home Price for the property you selected:</p>
+<br>
+
+
+{% for key,value in form_data.items() %}
+<h4> {{key}}</h2>
+<p style="color:blue;"> {{value}}</p>
+{% endfor %}
+
+
+<!-- <p> {{form_data}}</p> -->
